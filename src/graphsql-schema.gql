@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Member {
+  id: Float!
+  firstname: String!
+  lastname: String!
+  address: String!
+  district: String!
+  post: String!
+  phone: String!
+}
+
+type Query {
+  listMember: [Member!]!
+}
